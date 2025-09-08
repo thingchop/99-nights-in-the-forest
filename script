@@ -14,7 +14,7 @@
   loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
 
 ----------------------------------------------------------------------------
-  For support head over to discord.gg/voidware
+  For support head over to https://discord.gg/7zA8khATBu
 ----------------------------------------------------------------------------
 ]]
 if not game:IsLoaded() then return end
@@ -88,8 +88,8 @@ shared.CheatEngineMode = shared.CheatEngineMode or CheatEngineMode
 if game.PlaceId == 79546208627805 then
     pcall(function()
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "Voidware | 99 Nights In The Forest",
-            Text = "Go In Game for Voidware to load :D [You are in lobby currently]",
+            Title = "thingchop hub 99 | 99 Nights In The Forest",
+            Text = "Go In Game for Thingchop hub to load to load :D [You are in lobby rn]",
             Duration = 10
         })
     end)
@@ -182,4 +182,4 @@ end)
 
 local commit = shared.CustomCommit and tostring(shared.CustomCommit) or shared.StagingMode and "staging" or "7b3fad2b46336a55beca73caa205fb49dac41165"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/"..tostring(commit).."/newnightsintheforest.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Thingchop/VW-Add/"..tostring(commit).."/newnightsintheforest.lua", true))()
